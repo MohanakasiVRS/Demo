@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231017 20:35:34.306" rpa="false" schemaversion="4">
+<suite id="s1" name="Demo" source="C:\Demo">
+<suite id="s1-s1" name="Tests" source="C:\Demo\Tests">
+<suite id="s1-s1-s1" name="Trial1" source="C:\Demo\Tests\trial1.robot">
+<test id="s1-s1-s1-t1" name="Opening a website" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231017 20:35:35.220" level="FAIL">Variable '${URL}' not found.</msg>
+<status status="FAIL" starttime="20231017 20:35:35.218" endtime="20231017 20:35:35.220"/>
+</kw>
+<tag>'sanity'</tag>
+<status status="FAIL" starttime="20231017 20:35:35.213" endtime="20231017 20:35:35.222">Variable '${URL}' not found.</status>
+</test>
+<doc>sample project modication for branch merge 5th time</doc>
+<status status="FAIL" starttime="20231017 20:35:34.422" endtime="20231017 20:35:35.226"/>
+</suite>
+<status status="FAIL" starttime="20231017 20:35:34.415" endtime="20231017 20:35:35.230"/>
+</suite>
+<status status="FAIL" starttime="20231017 20:35:34.340" endtime="20231017 20:35:35.233"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">'sanity'</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Demo">Demo</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Demo.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Trial1">Demo.Tests.Trial1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231017 20:35:35.209" level="ERROR">Error in file 'C:\Demo\Tests\trial1.robot' on line 4: Resource file 'C:DemoTestsvariables.robot' does not exist.</msg>
+</errors>
+</robot>
