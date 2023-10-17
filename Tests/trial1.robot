@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    sample project modication for branch merge 5th time
+Documentation    sample project modication for branch done with merge
 Library    SeleniumLibrary
 Resource   C:\Demo\Tests\variables.robot
 
