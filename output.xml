@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231017 20:36:43.361" rpa="false" schemaversion="4">
+<suite id="s1" name="Trial1" source="c:\Demo\tests\trial1.robot">
+<test id="s1-t1" name="Opening a website" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231017 20:36:43.866" level="FAIL">Variable '${URL}' not found.</msg>
+<status status="FAIL" starttime="20231017 20:36:43.863" endtime="20231017 20:36:43.867"/>
+</kw>
+<tag>'sanity'</tag>
+<status status="FAIL" starttime="20231017 20:36:43.862" endtime="20231017 20:36:43.869">Variable '${URL}' not found.</status>
+</test>
+<doc>sample project modication for branch merge 5th time</doc>
+<status status="FAIL" starttime="20231017 20:36:43.365" endtime="20231017 20:36:43.871"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">'sanity'</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Trial1">Trial1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231017 20:36:43.855" level="ERROR">Error in file 'c:\Demo\tests\trial1.robot' on line 4: Resource file 'C:DemoTestsvariables.robot' does not exist.</msg>
+</errors>
+</robot>
